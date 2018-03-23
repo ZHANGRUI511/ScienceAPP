@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		780808BE205FEC570048DD71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780808BD205FEC570048DD71 /* AppDelegate.swift */; };
+		780808C0205FEC570048DD71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780808BF205FEC570048DD71 /* ViewController.swift */; };
+		780808C3205FEC570048DD71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780808C1205FEC570048DD71 /* Main.storyboard */; };
+		780808C6205FEC570048DD71 /* ScienceAPP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 780808C4205FEC570048DD71 /* ScienceAPP.xcdatamodeld */; };
+		780808C8205FEC570048DD71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 780808C7205FEC570048DD71 /* Assets.xcassets */; };
+		780808CB205FEC570048DD71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780808C9205FEC570048DD71 /* LaunchScreen.storyboard */; };
+		780808D6205FEC570048DD71 /* ScienceAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780808D5205FEC570048DD71 /* ScienceAPPTests.swift */; };
+		780808E1205FEC570048DD71 /* ScienceAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780808E0205FEC570048DD71 /* ScienceAPPUITests.swift */; };
+		780808EF205FECCA0048DD71 /* contact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 780808EE205FECCA0048DD71 /* contact@2x.png */; };
+		780808F0205FECCA0048DD71 /* contact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 780808EE205FECCA0048DD71 /* contact@2x.png */; };
+		780808F1205FECCA0048DD71 /* contact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 780808EE205FECCA0048DD71 /* contact@2x.png */; };
+		780808F3205FECCF0048DD71 /* calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 780808F2205FECCF0048DD71 /* calendar@2x.png */; };
+		780808F4205FECCF0048DD71 /* calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 780808F2205FECCF0048DD71 /* calendar@2x.png */; };
+		780808F5205FECCF0048DD71 /* calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 780808F2205FECCF0048DD71 /* calendar@2x.png */; };
+		780808FB205FECE70048DD71 /* RMIT2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 780808FA205FECE70048DD71 /* RMIT2@2x.jpg */; };
+		780808FC205FECE70048DD71 /* RMIT2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 780808FA205FECE70048DD71 /* RMIT2@2x.jpg */; };
+		780808FD205FECE70048DD71 /* RMIT2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 780808FA205FECE70048DD71 /* RMIT2@2x.jpg */; };
+		78080903205FECF40048DD71 /* WechatIMG39.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 78080902205FECF40048DD71 /* WechatIMG39.jpeg */; };
+		78080904205FECF40048DD71 /* WechatIMG39.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 78080902205FECF40048DD71 /* WechatIMG39.jpeg */; };
+		78080905205FECF40048DD71 /* WechatIMG39.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 78080902205FECF40048DD71 /* WechatIMG39.jpeg */; };
+		78080907205FED810048DD71 /* mainTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78080906205FED810048DD71 /* mainTabbar.swift */; };
+		78080908205FED810048DD71 /* mainTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78080906205FED810048DD71 /* mainTabbar.swift */; };
+		78080909205FED810048DD71 /* mainTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78080906205FED810048DD71 /* mainTabbar.swift */; };
+		7808090B205FEE0D0048DD71 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7808090A205FEE0D0048DD71 /* LoginViewController.swift */; };
+		7808090C205FEE0D0048DD71 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7808090A205FEE0D0048DD71 /* LoginViewController.swift */; };
+		7808090D205FEE0D0048DD71 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7808090A205FEE0D0048DD71 /* LoginViewController.swift */; };
+		7808090F205FEE210048DD71 /* waterview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7808090E205FEE210048DD71 /* waterview.swift */; };
+		78080910205FEE210048DD71 /* waterview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7808090E205FEE210048DD71 /* waterview.swift */; };
+		78080911205FEE210048DD71 /* waterview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7808090E205FEE210048DD71 /* waterview.swift */; };
+		78080913205FF2DB0048DD71 /* news@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78080912205FF2DA0048DD71 /* news@2x.png */; };
+		78080914205FF2DB0048DD71 /* news@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78080912205FF2DA0048DD71 /* news@2x.png */; };
+		78080915205FF2DB0048DD71 /* news@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78080912205FF2DA0048DD71 /* news@2x.png */; };
+		78080917206087290048DD71 /* form@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78080916206087290048DD71 /* form@2x.png */; };
+		78080918206087290048DD71 /* form@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78080916206087290048DD71 /* form@2x.png */; };
+		78080919206087290048DD71 /* form@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78080916206087290048DD71 /* form@2x.png */; };
+		7808092120608A120048DD71 /* forms@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808091A20608A100048DD71 /* forms@2x.png */; };
+		7808092220608A120048DD71 /* forms@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808091A20608A100048DD71 /* forms@2x.png */; };
+		7808092320608A120048DD71 /* forms@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808091A20608A100048DD71 /* forms@2x.png */; };
+		7808092420608A120048DD71 /* new2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808091B20608A100048DD71 /* new2@2x.png */; };
+		7808092520608A120048DD71 /* new2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808091B20608A100048DD71 /* new2@2x.png */; };
+		7808092620608A120048DD71 /* new2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808091B20608A100048DD71 /* new2@2x.png */; };
+		7808092720608A120048DD71 /* contact2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808091C20608A100048DD71 /* contact2@2x.png */; };
+		7808092820608A120048DD71 /* contact2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808091C20608A100048DD71 /* contact2@2x.png */; };
+		7808092920608A120048DD71 /* contact2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808091C20608A100048DD71 /* contact2@2x.png */; };
+		7808092A20608A120048DD71 /* scontact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808091D20608A110048DD71 /* scontact@2x.png */; };
+		7808092B20608A120048DD71 /* scontact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808091D20608A110048DD71 /* scontact@2x.png */; };
+		7808092C20608A120048DD71 /* scontact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808091D20608A110048DD71 /* scontact@2x.png */; };
+		7808092D20608A120048DD71 /* scalendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808091E20608A110048DD71 /* scalendar@2x.png */; };
+		7808092E20608A120048DD71 /* scalendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808091E20608A110048DD71 /* scalendar@2x.png */; };
+		7808092F20608A120048DD71 /* scalendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808091E20608A110048DD71 /* scalendar@2x.png */; };
+		7808093020608A120048DD71 /* snews@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808091F20608A120048DD71 /* snews@2x.png */; };
+		7808093120608A120048DD71 /* snews@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808091F20608A120048DD71 /* snews@2x.png */; };
+		7808093220608A120048DD71 /* snews@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808091F20608A120048DD71 /* snews@2x.png */; };
+		7808093720608A6E0048DD71 /* calendar2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808093620608A6E0048DD71 /* calendar2@2x.png */; };
+		7808093820608A6E0048DD71 /* calendar2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808093620608A6E0048DD71 /* calendar2@2x.png */; };
+		7808093920608A6E0048DD71 /* calendar2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808093620608A6E0048DD71 /* calendar2@2x.png */; };
+		7808093F20608D4F0048DD71 /* rmitlogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808093E20608D4F0048DD71 /* rmitlogo@2x.png */; };
+		7808094020608D4F0048DD71 /* rmitlogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808093E20608D4F0048DD71 /* rmitlogo@2x.png */; };
+		7808094120608D4F0048DD71 /* rmitlogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808093E20608D4F0048DD71 /* rmitlogo@2x.png */; };
+		78283E632061EA5300EAD9A7 /* rmit3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78283E622061EA5200EAD9A7 /* rmit3@2x.png */; };
+		78283E642061EA5300EAD9A7 /* rmit3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78283E622061EA5200EAD9A7 /* rmit3@2x.png */; };
+		78283E652061EA5300EAD9A7 /* rmit3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78283E622061EA5200EAD9A7 /* rmit3@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		780808D2205FEC570048DD71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 780808B2205FEC570048DD71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 780808B9205FEC570048DD71;
+			remoteInfo = ScienceAPP;
+		};
+		780808DD205FEC570048DD71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 780808B2205FEC570048DD71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 780808B9205FEC570048DD71;
+			remoteInfo = ScienceAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		780808BA205FEC570048DD71 /* ScienceAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScienceAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		780808BD205FEC570048DD71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		780808BF205FEC570048DD71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		780808C2205FEC570048DD71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		780808C5205FEC570048DD71 /* ScienceAPP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScienceAPP.xcdatamodel; sourceTree = "<group>"; };
+		780808C7205FEC570048DD71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		780808CA205FEC570048DD71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		780808CC205FEC570048DD71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		780808D1205FEC570048DD71 /* ScienceAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScienceAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		780808D5205FEC570048DD71 /* ScienceAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceAPPTests.swift; sourceTree = "<group>"; };
+		780808D7205FEC570048DD71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		780808DC205FEC570048DD71 /* ScienceAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScienceAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		780808E0205FEC570048DD71 /* ScienceAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceAPPUITests.swift; sourceTree = "<group>"; };
+		780808E2205FEC570048DD71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		780808EE205FECCA0048DD71 /* contact@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contact@2x.png"; sourceTree = "<group>"; };
+		780808F2205FECCF0048DD71 /* calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar@2x.png"; sourceTree = "<group>"; };
+		780808FA205FECE70048DD71 /* RMIT2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "RMIT2@2x.jpg"; sourceTree = "<group>"; };
+		78080902205FECF40048DD71 /* WechatIMG39.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG39.jpeg; sourceTree = "<group>"; };
+		78080906205FED810048DD71 /* mainTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainTabbar.swift; sourceTree = "<group>"; };
+		7808090A205FEE0D0048DD71 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7808090E205FEE210048DD71 /* waterview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterview.swift; sourceTree = "<group>"; };
+		78080912205FF2DA0048DD71 /* news@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "news@2x.png"; sourceTree = "<group>"; };
+		78080916206087290048DD71 /* form@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "form@2x.png"; sourceTree = "<group>"; };
+		7808091A20608A100048DD71 /* forms@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forms@2x.png"; sourceTree = "<group>"; };
+		7808091B20608A100048DD71 /* new2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new2@2x.png"; sourceTree = "<group>"; };
+		7808091C20608A100048DD71 /* contact2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contact2@2x.png"; sourceTree = "<group>"; };
+		7808091D20608A110048DD71 /* scontact@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scontact@2x.png"; sourceTree = "<group>"; };
+		7808091E20608A110048DD71 /* scalendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scalendar@2x.png"; sourceTree = "<group>"; };
+		7808091F20608A120048DD71 /* snews@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snews@2x.png"; sourceTree = "<group>"; };
+		7808093620608A6E0048DD71 /* calendar2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar2@2x.png"; sourceTree = "<group>"; };
+		7808093E20608D4F0048DD71 /* rmitlogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rmitlogo@2x.png"; sourceTree = "<group>"; };
+		78283E622061EA5200EAD9A7 /* rmit3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rmit3@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		780808B7205FEC570048DD71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780808CE205FEC570048DD71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780808D9205FEC570048DD71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		780808B1205FEC570048DD71 = {
+			isa = PBXGroup;
+			children = (
+				780808BC205FEC570048DD71 /* ScienceAPP */,
+				780808D4205FEC570048DD71 /* ScienceAPPTests */,
+				780808DF205FEC570048DD71 /* ScienceAPPUITests */,
+				780808BB205FEC570048DD71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		780808BB205FEC570048DD71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				780808BA205FEC570048DD71 /* ScienceAPP.app */,
+				780808D1205FEC570048DD71 /* ScienceAPPTests.xctest */,
+				780808DC205FEC570048DD71 /* ScienceAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		780808BC205FEC570048DD71 /* ScienceAPP */ = {
+			isa = PBXGroup;
+			children = (
+				780808BD205FEC570048DD71 /* AppDelegate.swift */,
+				780808BF205FEC570048DD71 /* ViewController.swift */,
+				7808091C20608A100048DD71 /* contact2@2x.png */,
+				7808091A20608A100048DD71 /* forms@2x.png */,
+				7808093620608A6E0048DD71 /* calendar2@2x.png */,
+				78283E622061EA5200EAD9A7 /* rmit3@2x.png */,
+				7808091B20608A100048DD71 /* new2@2x.png */,
+				7808093E20608D4F0048DD71 /* rmitlogo@2x.png */,
+				7808091E20608A110048DD71 /* scalendar@2x.png */,
+				7808091D20608A110048DD71 /* scontact@2x.png */,
+				7808091F20608A120048DD71 /* snews@2x.png */,
+				780808EE205FECCA0048DD71 /* contact@2x.png */,
+				780808FA205FECE70048DD71 /* RMIT2@2x.jpg */,
+				780808C1205FEC570048DD71 /* Main.storyboard */,
+				780808C7205FEC570048DD71 /* Assets.xcassets */,
+				78080906205FED810048DD71 /* mainTabbar.swift */,
+				7808090A205FEE0D0048DD71 /* LoginViewController.swift */,
+				78080912205FF2DA0048DD71 /* news@2x.png */,
+				7808090E205FEE210048DD71 /* waterview.swift */,
+				78080916206087290048DD71 /* form@2x.png */,
+				78080902205FECF40048DD71 /* WechatIMG39.jpeg */,
+				780808F2205FECCF0048DD71 /* calendar@2x.png */,
+				780808C9205FEC570048DD71 /* LaunchScreen.storyboard */,
+				780808CC205FEC570048DD71 /* Info.plist */,
+				780808C4205FEC570048DD71 /* ScienceAPP.xcdatamodeld */,
+			);
+			path = ScienceAPP;
+			sourceTree = "<group>";
+		};
+		780808D4205FEC570048DD71 /* ScienceAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				780808D5205FEC570048DD71 /* ScienceAPPTests.swift */,
+				780808D7205FEC570048DD71 /* Info.plist */,
+			);
+			path = ScienceAPPTests;
+			sourceTree = "<group>";
+		};
+		780808DF205FEC570048DD71 /* ScienceAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				780808E0205FEC570048DD71 /* ScienceAPPUITests.swift */,
+				780808E2205FEC570048DD71 /* Info.plist */,
+			);
+			path = ScienceAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		780808B9205FEC570048DD71 /* ScienceAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 780808E5205FEC570048DD71 /* Build configuration list for PBXNativeTarget "ScienceAPP" */;
+			buildPhases = (
+				780808B6205FEC570048DD71 /* Sources */,
+				780808B7205FEC570048DD71 /* Frameworks */,
+				780808B8205FEC570048DD71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScienceAPP;
+			productName = ScienceAPP;
+			productReference = 780808BA205FEC570048DD71 /* ScienceAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		780808D0205FEC570048DD71 /* ScienceAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 780808E8205FEC570048DD71 /* Build configuration list for PBXNativeTarget "ScienceAPPTests" */;
+			buildPhases = (
+				780808CD205FEC570048DD71 /* Sources */,
+				780808CE205FEC570048DD71 /* Frameworks */,
+				780808CF205FEC570048DD71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				780808D3205FEC570048DD71 /* PBXTargetDependency */,
+			);
+			name = ScienceAPPTests;
+			productName = ScienceAPPTests;
+			productReference = 780808D1205FEC570048DD71 /* ScienceAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		780808DB205FEC570048DD71 /* ScienceAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 780808EB205FEC570048DD71 /* Build configuration list for PBXNativeTarget "ScienceAPPUITests" */;
+			buildPhases = (
+				780808D8205FEC570048DD71 /* Sources */,
+				780808D9205FEC570048DD71 /* Frameworks */,
+				780808DA205FEC570048DD71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				780808DE205FEC570048DD71 /* PBXTargetDependency */,
+			);
+			name = ScienceAPPUITests;
+			productName = ScienceAPPUITests;
+			productReference = 780808DC205FEC570048DD71 /* ScienceAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		780808B2205FEC570048DD71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "张睿";
+				TargetAttributes = {
+					780808B9205FEC570048DD71 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					780808D0205FEC570048DD71 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 780808B9205FEC570048DD71;
+					};
+					780808DB205FEC570048DD71 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 780808B9205FEC570048DD71;
+					};
+				};
+			};
+			buildConfigurationList = 780808B5205FEC570048DD71 /* Build configuration list for PBXProject "ScienceAPP" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 780808B1205FEC570048DD71;
+			productRefGroup = 780808BB205FEC570048DD71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				780808B9205FEC570048DD71 /* ScienceAPP */,
+				780808D0205FEC570048DD71 /* ScienceAPPTests */,
+				780808DB205FEC570048DD71 /* ScienceAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		780808B8205FEC570048DD71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7808092120608A120048DD71 /* forms@2x.png in Resources */,
+				7808092D20608A120048DD71 /* scalendar@2x.png in Resources */,
+				78080903205FECF40048DD71 /* WechatIMG39.jpeg in Resources */,
+				780808CB205FEC570048DD71 /* LaunchScreen.storyboard in Resources */,
+				78080913205FF2DB0048DD71 /* news@2x.png in Resources */,
+				7808092420608A120048DD71 /* new2@2x.png in Resources */,
+				780808C8205FEC570048DD71 /* Assets.xcassets in Resources */,
+				7808093F20608D4F0048DD71 /* rmitlogo@2x.png in Resources */,
+				7808093720608A6E0048DD71 /* calendar2@2x.png in Resources */,
+				7808092720608A120048DD71 /* contact2@2x.png in Resources */,
+				7808093020608A120048DD71 /* snews@2x.png in Resources */,
+				780808FB205FECE70048DD71 /* RMIT2@2x.jpg in Resources */,
+				78283E632061EA5300EAD9A7 /* rmit3@2x.png in Resources */,
+				78080917206087290048DD71 /* form@2x.png in Resources */,
+				780808C3205FEC570048DD71 /* Main.storyboard in Resources */,
+				7808092A20608A120048DD71 /* scontact@2x.png in Resources */,
+				780808EF205FECCA0048DD71 /* contact@2x.png in Resources */,
+				780808F3205FECCF0048DD71 /* calendar@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780808CF205FEC570048DD71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7808092820608A120048DD71 /* contact2@2x.png in Resources */,
+				7808092220608A120048DD71 /* forms@2x.png in Resources */,
+				7808093120608A120048DD71 /* snews@2x.png in Resources */,
+				78283E642061EA5300EAD9A7 /* rmit3@2x.png in Resources */,
+				780808F4205FECCF0048DD71 /* calendar@2x.png in Resources */,
+				78080918206087290048DD71 /* form@2x.png in Resources */,
+				7808093820608A6E0048DD71 /* calendar2@2x.png in Resources */,
+				780808F0205FECCA0048DD71 /* contact@2x.png in Resources */,
+				7808092520608A120048DD71 /* new2@2x.png in Resources */,
+				7808094020608D4F0048DD71 /* rmitlogo@2x.png in Resources */,
+				78080904205FECF40048DD71 /* WechatIMG39.jpeg in Resources */,
+				780808FC205FECE70048DD71 /* RMIT2@2x.jpg in Resources */,
+				78080914205FF2DB0048DD71 /* news@2x.png in Resources */,
+				7808092E20608A120048DD71 /* scalendar@2x.png in Resources */,
+				7808092B20608A120048DD71 /* scontact@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780808DA205FEC570048DD71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7808092920608A120048DD71 /* contact2@2x.png in Resources */,
+				7808092320608A120048DD71 /* forms@2x.png in Resources */,
+				7808093220608A120048DD71 /* snews@2x.png in Resources */,
+				78283E652061EA5300EAD9A7 /* rmit3@2x.png in Resources */,
+				780808F5205FECCF0048DD71 /* calendar@2x.png in Resources */,
+				78080919206087290048DD71 /* form@2x.png in Resources */,
+				7808093920608A6E0048DD71 /* calendar2@2x.png in Resources */,
+				780808F1205FECCA0048DD71 /* contact@2x.png in Resources */,
+				7808092620608A120048DD71 /* new2@2x.png in Resources */,
+				7808094120608D4F0048DD71 /* rmitlogo@2x.png in Resources */,
+				78080905205FECF40048DD71 /* WechatIMG39.jpeg in Resources */,
+				780808FD205FECE70048DD71 /* RMIT2@2x.jpg in Resources */,
+				78080915205FF2DB0048DD71 /* news@2x.png in Resources */,
+				7808092F20608A120048DD71 /* scalendar@2x.png in Resources */,
+				7808092C20608A120048DD71 /* scontact@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		780808B6205FEC570048DD71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78080907205FED810048DD71 /* mainTabbar.swift in Sources */,
+				780808C0205FEC570048DD71 /* ViewController.swift in Sources */,
+				780808BE205FEC570048DD71 /* AppDelegate.swift in Sources */,
+				7808090B205FEE0D0048DD71 /* LoginViewController.swift in Sources */,
+				7808090F205FEE210048DD71 /* waterview.swift in Sources */,
+				780808C6205FEC570048DD71 /* ScienceAPP.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780808CD205FEC570048DD71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78080910205FEE210048DD71 /* waterview.swift in Sources */,
+				7808090C205FEE0D0048DD71 /* LoginViewController.swift in Sources */,
+				78080908205FED810048DD71 /* mainTabbar.swift in Sources */,
+				780808D6205FEC570048DD71 /* ScienceAPPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780808D8205FEC570048DD71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78080911205FEE210048DD71 /* waterview.swift in Sources */,
+				7808090D205FEE0D0048DD71 /* LoginViewController.swift in Sources */,
+				78080909205FED810048DD71 /* mainTabbar.swift in Sources */,
+				780808E1205FEC570048DD71 /* ScienceAPPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		780808D3205FEC570048DD71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 780808B9205FEC570048DD71 /* ScienceAPP */;
+			targetProxy = 780808D2205FEC570048DD71 /* PBXContainerItemProxy */;
+		};
+		780808DE205FEC570048DD71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 780808B9205FEC570048DD71 /* ScienceAPP */;
+			targetProxy = 780808DD205FEC570048DD71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		780808C1205FEC570048DD71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				780808C2205FEC570048DD71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		780808C9205FEC570048DD71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				780808CA205FEC570048DD71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		780808E3205FEC570048DD71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		780808E4205FEC570048DD71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		780808E6205FEC570048DD71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScienceAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zr.ScienceAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		780808E7205FEC570048DD71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScienceAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zr.ScienceAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		780808E9205FEC570048DD71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScienceAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zr.ScienceAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScienceAPP.app/ScienceAPP";
+			};
+			name = Debug;
+		};
+		780808EA205FEC570048DD71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScienceAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zr.ScienceAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScienceAPP.app/ScienceAPP";
+			};
+			name = Release;
+		};
+		780808EC205FEC570048DD71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScienceAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zr.ScienceAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScienceAPP;
+			};
+			name = Debug;
+		};
+		780808ED205FEC570048DD71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScienceAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zr.ScienceAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScienceAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		780808B5205FEC570048DD71 /* Build configuration list for PBXProject "ScienceAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				780808E3205FEC570048DD71 /* Debug */,
+				780808E4205FEC570048DD71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		780808E5205FEC570048DD71 /* Build configuration list for PBXNativeTarget "ScienceAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				780808E6205FEC570048DD71 /* Debug */,
+				780808E7205FEC570048DD71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		780808E8205FEC570048DD71 /* Build configuration list for PBXNativeTarget "ScienceAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				780808E9205FEC570048DD71 /* Debug */,
+				780808EA205FEC570048DD71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		780808EB205FEC570048DD71 /* Build configuration list for PBXNativeTarget "ScienceAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				780808EC205FEC570048DD71 /* Debug */,
+				780808ED205FEC570048DD71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		780808C4205FEC570048DD71 /* ScienceAPP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				780808C5205FEC570048DD71 /* ScienceAPP.xcdatamodel */,
+			);
+			currentVersion = 780808C5205FEC570048DD71 /* ScienceAPP.xcdatamodel */;
+			path = ScienceAPP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 780808B2205FEC570048DD71 /* Project object */;
+}
