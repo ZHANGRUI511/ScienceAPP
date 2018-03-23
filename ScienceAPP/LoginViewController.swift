@@ -16,7 +16,7 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.login.layer.cornerRadius = 10
-        self.login.layer.borderWidth = 3
+        self.login.layer.borderWidth = 4
         self.login.layer.borderColor = UIColor.black.cgColor
         let singleWaterWaveView = waterview(frame:view.bounds)
         view.addSubview(singleWaterWaveView)
