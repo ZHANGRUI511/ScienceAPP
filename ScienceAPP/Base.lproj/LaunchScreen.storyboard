@@ -18,16 +18,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WechatIMG39.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="VX8-Un-6RS">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c7h-3R-471">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="VX8-Un-6RS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ITu-dP-Nrv"/>
-                            <constraint firstItem="VX8-Un-6RS" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Zdy-AM-d5n"/>
-                            <constraint firstItem="VX8-Un-6RS" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="cQK-nY-MGE"/>
-                            <constraint firstItem="VX8-Un-6RS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ulG-Ma-ugv"/>
+                            <constraint firstItem="c7h-3R-471" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="e7p-l2-Fvi"/>
+                            <constraint firstItem="c7h-3R-471" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="e8N-rh-yty"/>
+                            <constraint firstItem="c7h-3R-471" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="gBM-dD-mH2"/>
+                            <constraint firstItem="c7h-3R-471" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ky0-7D-ZtJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -37,7 +37,4 @@
             <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="WechatIMG39.jpeg" width="750" height="1334"/>
-    </resources>
 </document>

@@ -69,6 +69,23 @@
 		78283E632061EA5300EAD9A7 /* rmit3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78283E622061EA5200EAD9A7 /* rmit3@2x.png */; };
 		78283E642061EA5300EAD9A7 /* rmit3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78283E622061EA5200EAD9A7 /* rmit3@2x.png */; };
 		78283E652061EA5300EAD9A7 /* rmit3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78283E622061EA5200EAD9A7 /* rmit3@2x.png */; };
+		788BDA832068D37500621088 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788BDA822068D37500621088 /* NewsViewController.swift */; };
+		788BDA842068D37500621088 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788BDA822068D37500621088 /* NewsViewController.swift */; };
+		788BDA852068D37500621088 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788BDA822068D37500621088 /* NewsViewController.swift */; };
+		788C057E2068F26800429675 /* BTNavigationDropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C05732068F26800429675 /* BTNavigationDropdownMenu.swift */; };
+		788C057F2068F26800429675 /* BTTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C05742068F26800429675 /* BTTitle.swift */; };
+		788C05802068F26800429675 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C05762068F26800429675 /* UIView+Extension.swift */; };
+		788C05812068F26800429675 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C05772068F26800429675 /* UIViewController+Extension.swift */; };
+		788C05822068F26800429675 /* BTTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C05792068F26800429675 /* BTTableViewCell.swift */; };
+		788C05832068F26800429675 /* BTTableCellContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C057A2068F26800429675 /* BTTableCellContentView.swift */; };
+		788C05842068F26800429675 /* BTTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C057B2068F26800429675 /* BTTableView.swift */; };
+		788C05852068F26800429675 /* BTConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C057C2068F26800429675 /* BTConfiguration.swift */; };
+		788C05862068F26800429675 /* BTNavigationDropdownMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 788C057D2068F26800429675 /* BTNavigationDropdownMenu.bundle */; };
+		788C058A2068F8A600429675 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C05892068F8A600429675 /* CalendarViewController.swift */; };
+		788C058C2068FAEA00429675 /* form4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 788C058B2068FAE900429675 /* form4@2x.png */; };
+		788C058E2069224900429675 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C058D2069224900429675 /* ContactViewController.swift */; };
+		788C05902069226900429675 /* FormsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C058F2069226900429675 /* FormsViewController.swift */; };
+		788C0592206A00D200429675 /* RmiT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C0591206A00D200429675 /* RmiT.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +138,21 @@
 		7808093620608A6E0048DD71 /* calendar2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar2@2x.png"; sourceTree = "<group>"; };
 		7808093E20608D4F0048DD71 /* rmitlogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rmitlogo@2x.png"; sourceTree = "<group>"; };
 		78283E622061EA5200EAD9A7 /* rmit3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rmit3@2x.png"; sourceTree = "<group>"; };
+		788BDA822068D37500621088 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		788C05732068F26800429675 /* BTNavigationDropdownMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTNavigationDropdownMenu.swift; sourceTree = "<group>"; };
+		788C05742068F26800429675 /* BTTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTTitle.swift; sourceTree = "<group>"; };
+		788C05762068F26800429675 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		788C05772068F26800429675 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		788C05792068F26800429675 /* BTTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTTableViewCell.swift; sourceTree = "<group>"; };
+		788C057A2068F26800429675 /* BTTableCellContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTTableCellContentView.swift; sourceTree = "<group>"; };
+		788C057B2068F26800429675 /* BTTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTTableView.swift; sourceTree = "<group>"; };
+		788C057C2068F26800429675 /* BTConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTConfiguration.swift; sourceTree = "<group>"; };
+		788C057D2068F26800429675 /* BTNavigationDropdownMenu.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BTNavigationDropdownMenu.bundle; sourceTree = "<group>"; };
+		788C05892068F8A600429675 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		788C058B2068FAE900429675 /* form4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "form4@2x.png"; sourceTree = "<group>"; };
+		788C058D2069224900429675 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		788C058F2069226900429675 /* FormsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormsViewController.swift; sourceTree = "<group>"; };
+		788C0591206A00D200429675 /* RmiT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RmiT.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +183,7 @@
 		780808B1205FEC570048DD71 = {
 			isa = PBXGroup;
 			children = (
+				788C05722068F26800429675 /* Source */,
 				780808BC205FEC570048DD71 /* ScienceAPP */,
 				780808D4205FEC570048DD71 /* ScienceAPPTests */,
 				780808DF205FEC570048DD71 /* ScienceAPPUITests */,
@@ -181,13 +214,19 @@
 				7808093E20608D4F0048DD71 /* rmitlogo@2x.png */,
 				7808091E20608A110048DD71 /* scalendar@2x.png */,
 				7808091D20608A110048DD71 /* scontact@2x.png */,
+				788C058B2068FAE900429675 /* form4@2x.png */,
 				7808091F20608A120048DD71 /* snews@2x.png */,
 				780808EE205FECCA0048DD71 /* contact@2x.png */,
 				780808FA205FECE70048DD71 /* RMIT2@2x.jpg */,
 				780808C1205FEC570048DD71 /* Main.storyboard */,
 				780808C7205FEC570048DD71 /* Assets.xcassets */,
 				78080906205FED810048DD71 /* mainTabbar.swift */,
+				788C058D2069224900429675 /* ContactViewController.swift */,
 				7808090A205FEE0D0048DD71 /* LoginViewController.swift */,
+				788C0591206A00D200429675 /* RmiT.swift */,
+				788BDA822068D37500621088 /* NewsViewController.swift */,
+				788C058F2069226900429675 /* FormsViewController.swift */,
+				788C05892068F8A600429675 /* CalendarViewController.swift */,
 				78080912205FF2DA0048DD71 /* news@2x.png */,
 				7808090E205FEE210048DD71 /* waterview.swift */,
 				78080916206087290048DD71 /* form@2x.png */,
@@ -216,6 +255,39 @@
 				780808E2205FEC570048DD71 /* Info.plist */,
 			);
 			path = ScienceAPPUITests;
+			sourceTree = "<group>";
+		};
+		788C05722068F26800429675 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				788C05732068F26800429675 /* BTNavigationDropdownMenu.swift */,
+				788C05742068F26800429675 /* BTTitle.swift */,
+				788C05752068F26800429675 /* Extension */,
+				788C05782068F26800429675 /* Internal */,
+				788C057D2068F26800429675 /* BTNavigationDropdownMenu.bundle */,
+			);
+			name = Source;
+			path = "../../Downloads/BTNavigationDropdownMenu-master/Source";
+			sourceTree = "<group>";
+		};
+		788C05752068F26800429675 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				788C05762068F26800429675 /* UIView+Extension.swift */,
+				788C05772068F26800429675 /* UIViewController+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		788C05782068F26800429675 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				788C05792068F26800429675 /* BTTableViewCell.swift */,
+				788C057A2068F26800429675 /* BTTableCellContentView.swift */,
+				788C057B2068F26800429675 /* BTTableView.swift */,
+				788C057C2068F26800429675 /* BTConfiguration.swift */,
+			);
+			path = Internal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,10 +401,12 @@
 				7808092D20608A120048DD71 /* scalendar@2x.png in Resources */,
 				78080903205FECF40048DD71 /* WechatIMG39.jpeg in Resources */,
 				780808CB205FEC570048DD71 /* LaunchScreen.storyboard in Resources */,
+				788C05862068F26800429675 /* BTNavigationDropdownMenu.bundle in Resources */,
 				78080913205FF2DB0048DD71 /* news@2x.png in Resources */,
 				7808092420608A120048DD71 /* new2@2x.png in Resources */,
 				780808C8205FEC570048DD71 /* Assets.xcassets in Resources */,
 				7808093F20608D4F0048DD71 /* rmitlogo@2x.png in Resources */,
+				788C058C2068FAEA00429675 /* form4@2x.png in Resources */,
 				7808093720608A6E0048DD71 /* calendar2@2x.png in Resources */,
 				7808092720608A120048DD71 /* contact2@2x.png in Resources */,
 				7808093020608A120048DD71 /* snews@2x.png in Resources */,
@@ -397,11 +471,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				788C058A2068F8A600429675 /* CalendarViewController.swift in Sources */,
 				78080907205FED810048DD71 /* mainTabbar.swift in Sources */,
+				788C05812068F26800429675 /* UIViewController+Extension.swift in Sources */,
+				788C058E2069224900429675 /* ContactViewController.swift in Sources */,
+				788C057E2068F26800429675 /* BTNavigationDropdownMenu.swift in Sources */,
+				788C05842068F26800429675 /* BTTableView.swift in Sources */,
+				788C05902069226900429675 /* FormsViewController.swift in Sources */,
+				788BDA832068D37500621088 /* NewsViewController.swift in Sources */,
 				780808C0205FEC570048DD71 /* ViewController.swift in Sources */,
+				788C05852068F26800429675 /* BTConfiguration.swift in Sources */,
+				788C05822068F26800429675 /* BTTableViewCell.swift in Sources */,
 				780808BE205FEC570048DD71 /* AppDelegate.swift in Sources */,
+				788C0592206A00D200429675 /* RmiT.swift in Sources */,
+				788C057F2068F26800429675 /* BTTitle.swift in Sources */,
 				7808090B205FEE0D0048DD71 /* LoginViewController.swift in Sources */,
+				788C05832068F26800429675 /* BTTableCellContentView.swift in Sources */,
 				7808090F205FEE210048DD71 /* waterview.swift in Sources */,
+				788C05802068F26800429675 /* UIView+Extension.swift in Sources */,
 				780808C6205FEC570048DD71 /* ScienceAPP.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +499,7 @@
 			files = (
 				78080910205FEE210048DD71 /* waterview.swift in Sources */,
 				7808090C205FEE0D0048DD71 /* LoginViewController.swift in Sources */,
+				788BDA842068D37500621088 /* NewsViewController.swift in Sources */,
 				78080908205FED810048DD71 /* mainTabbar.swift in Sources */,
 				780808D6205FEC570048DD71 /* ScienceAPPTests.swift in Sources */,
 			);
@@ -423,6 +511,7 @@
 			files = (
 				78080911205FEE210048DD71 /* waterview.swift in Sources */,
 				7808090D205FEE0D0048DD71 /* LoginViewController.swift in Sources */,
+				788BDA852068D37500621088 /* NewsViewController.swift in Sources */,
 				78080909205FED810048DD71 /* mainTabbar.swift in Sources */,
 				780808E1205FEC570048DD71 /* ScienceAPPUITests.swift in Sources */,
 			);

@@ -52,7 +52,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="dMg-fJ-gaz" kind="showDetail" id="8h8-vP-Ped"/>
+                                    <segue destination="tsy-1T-wD8" kind="show" id="8xf-oX-lqo"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RMIT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rvh-te-gHp">
@@ -81,6 +81,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="DpH-0Q-QSq"/>
                     <connections>
+                        <outlet property="RmitLogo" destination="Rvh-te-gHp" id="8tl-p0-Dv5"/>
                         <outlet property="StudentNum" destination="KhN-GL-Qn1" id="7dv-fG-nNw"/>
                         <outlet property="login" destination="xGr-to-0FT" id="iPz-HH-m00"/>
                         <outlet property="password" destination="6lr-6A-9Ws" id="ySh-oY-qSX"/>
@@ -88,28 +89,29 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1023.2" y="154.27286356821591"/>
+            <point key="canvasLocation" x="-2087" y="152"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Item-->
         <scene sceneID="Ev4-R0-rYg">
             <objects>
                 <navigationController id="dMg-fJ-gaz" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="g8a-03-lEY"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0qa-s7-TEs">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="tsy-1T-wD8" kind="relationship" relationship="rootViewController" id="NRz-cE-shT"/>
+                        <segue destination="WdW-i8-ABs" kind="relationship" relationship="rootViewController" id="ZuY-gx-6J2"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nGM-Z6-BST" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-214" y="126"/>
+            <point key="canvasLocation" x="-113" y="180"/>
         </scene>
         <!--Contact-->
         <scene sceneID="PIO-VF-zdG">
             <objects>
-                <viewController id="iFa-Af-XAx" sceneMemberID="viewController">
+                <viewController id="iFa-Af-XAx" customClass="ContactViewController" customModule="ScienceAPP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QWg-T7-PyZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -117,31 +119,129 @@
                         <viewLayoutGuide key="safeArea" id="o9K-xe-YW9"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Contact" image="contact2.png" selectedImage="scontact.png" id="vcg-xQ-1fo"/>
+                    <navigationItem key="navigationItem" title="Contact" id="kYM-N1-Sqp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Jn-Ss-Pq3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="534" y="915"/>
+            <point key="canvasLocation" x="-1071" y="1734"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="p63-dP-rHr">
+            <objects>
+                <navigationController id="yPh-FM-dxo" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="u1Q-mB-hSc"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KQj-qW-yco">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Uwh-vP-a7e" kind="relationship" relationship="rootViewController" id="eM2-ds-9Ab"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Msq-w9-Imt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1844" y="809"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="xGj-43-8AU">
+            <objects>
+                <navigationController id="Nne-kl-v9H" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="h2s-KZ-Qri"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vt6-Rf-7Fm">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="iFa-Af-XAx" kind="relationship" relationship="rootViewController" id="iKc-Bu-5dX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rpf-xv-SbH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1118" y="967"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="dDj-ZI-7hw">
+            <objects>
+                <navigationController id="w4Z-Dj-z4C" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="A74-qC-EIW"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="U0C-SG-jB9">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="OpB-kX-ecV" kind="relationship" relationship="rootViewController" id="9mP-TK-yRu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fdd-22-gU4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-393" y="1031"/>
         </scene>
         <!--Calendar-->
         <scene sceneID="ttt-2d-P7p">
             <objects>
-                <viewController id="OpB-kX-ecV" sceneMemberID="viewController">
+                <viewController id="OpB-kX-ecV" customClass="CalendarViewController" customModule="ScienceAPP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="thb-0Y-vsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1vQ-7d-iBI">
+                                <rect key="frame" x="127" y="281" width="113" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="9q4-9a-nuK"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Calendar" image="calendar2.png" selectedImage="scalendar.png" id="CSQ-Xv-ObM"/>
+                    <navigationItem key="navigationItem" id="6fi-QH-XcA"/>
+                    <connections>
+                        <outlet property="label2" destination="1vQ-7d-iBI" id="2f2-In-dab"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="awS-8g-mbA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1266" y="953"/>
+            <point key="canvasLocation" x="334" y="937"/>
+        </scene>
+        <!--Events-->
+        <scene sceneID="3gz-uw-TPa">
+            <objects>
+                <navigationController id="R7A-3q-7hK" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Events" id="Lgz-z9-Lva"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vEA-f6-mcm">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="X7Y-0Y-vcT" kind="relationship" relationship="rootViewController" id="7gx-Vo-IfO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ivF-Wd-LEf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-369" y="1748"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="HdD-Ev-0TL">
+            <objects>
+                <viewController id="X7Y-0Y-vcT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Wc-z8-e4e">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="MBZ-3q-hex"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hCl-s9-wGp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mw0-XI-6AO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="375" y="1746"/>
         </scene>
         <!--Forms-->
         <scene sceneID="FCk-ft-CBa">
             <objects>
-                <viewController id="Uwh-vP-a7e" sceneMemberID="viewController">
+                <viewController id="Uwh-vP-a7e" customClass="FormsViewController" customModule="ScienceAPP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="l28-uF-l0B">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -155,55 +255,70 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="O2b-4N-Gyb"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Forms" image="form.png" selectedImage="forms.png" id="U6S-E1-fKc"/>
+                    <tabBarItem key="tabBarItem" title="Forms" image="form4.png" selectedImage="forms.png" id="U6S-E1-fKc"/>
+                    <navigationItem key="navigationItem" title="Forms" id="frL-Ro-Uef"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6pb-Jb-Xcx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1501.5999999999999" y="-389.05547226386807"/>
+            <point key="canvasLocation" x="-1844" y="1606"/>
         </scene>
         <!--News-->
         <scene sceneID="N7N-eK-BcL">
             <objects>
-                <viewController id="WdW-i8-ABs" sceneMemberID="viewController">
+                <viewController id="WdW-i8-ABs" customClass="NewsViewController" customModule="ScienceAPP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NpM-6D-Awr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lc7-bF-PNa">
+                                <rect key="frame" x="105" y="310" width="165" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="5D5-8C-wT6"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="News" image="new2.png" selectedImage="snews.png" id="cac-Qz-3ys"/>
+                    <navigationItem key="navigationItem" id="oJT-3V-HgG"/>
+                    <connections>
+                        <outlet property="label1" destination="Lc7-bF-PNa" id="UFF-hp-XAZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="um3-Yl-bBG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1452" y="268.51574212893553"/>
+            <point key="canvasLocation" x="844" y="217"/>
         </scene>
-        <!--School of Science-->
+        <!--Main Tabbar-->
         <scene sceneID="cSH-wh-imC">
             <objects>
                 <tabBarController id="tsy-1T-wD8" customClass="mainTabbar" customModule="ScienceAPP" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" title="School of Science" id="HPx-a7-5Xn"/>
+                    <navigationItem key="navigationItem" id="HPx-a7-5Xn"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nFd-4C-TgE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="WdW-i8-ABs" kind="relationship" relationship="viewControllers" id="l4s-kS-Pc7"/>
-                        <segue destination="OpB-kX-ecV" kind="relationship" relationship="viewControllers" id="0lH-2Y-tfs"/>
-                        <segue destination="iFa-Af-XAx" kind="relationship" relationship="viewControllers" id="Gbg-BF-A8J"/>
-                        <segue destination="Uwh-vP-a7e" kind="relationship" relationship="viewControllers" id="Sbl-yw-aai"/>
+                        <segue destination="dMg-fJ-gaz" kind="relationship" relationship="viewControllers" id="TGu-UG-nrS"/>
+                        <segue destination="w4Z-Dj-z4C" kind="relationship" relationship="viewControllers" id="4Fa-yl-v9Z"/>
+                        <segue destination="R7A-3q-7hK" kind="relationship" relationship="viewControllers" id="crp-eg-nsi"/>
+                        <segue destination="yPh-FM-dxo" kind="relationship" relationship="viewControllers" id="0Kq-9j-hzc"/>
+                        <segue destination="Nne-kl-v9H" kind="relationship" relationship="viewControllers" id="kwe-xe-zLd"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PPJ-RU-UKm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="534" y="127"/>
+            <point key="canvasLocation" x="-1033" y="249"/>
         </scene>
     </scenes>
     <resources>
         <image name="RMIT2.jpg" width="200" height="200"/>
         <image name="calendar2.png" width="32" height="32"/>
         <image name="contact2.png" width="32" height="32"/>
-        <image name="form.png" width="25" height="25"/>
+        <image name="form4.png" width="30" height="30"/>
         <image name="forms.png" width="32" height="32"/>
         <image name="new2.png" width="32" height="32"/>
         <image name="rmitlogo.png" width="112" height="112"/>

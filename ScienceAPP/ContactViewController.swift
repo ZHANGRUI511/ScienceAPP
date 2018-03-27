@@ -1,31 +1,21 @@
 //
-//  LoginViewController.swift
+//  ContactViewController.swift
 //  ScienceAPP
 //
-//  Created by 张睿 on 20/3/18.
+//  Created by 张睿 on 26/3/18.
 //  Copyright © 2018 张睿. All rights reserved.
 //
 
 import UIKit
 
-class LoginViewController: UIViewController {
-   
-    
-    @IBOutlet weak var login: UIButton!
-    @IBOutlet weak var StudentNum: UITextField!
-    @IBOutlet weak var password: UITextField!
-    @IBOutlet weak var RmitLogo: UILabel!
-   
+class ContactViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.login.layer.cornerRadius = 10
-        self.login.layer.borderWidth = 4
-        self.login.layer.borderColor = UIColor.black.cgColor
-        let singleWaterWaveView = waterview(frame:view.bounds)
-        view.addSubview(singleWaterWaveView)
-        view.sendSubview(toBack: singleWaterWaveView)
+        self.navigationController?.navigationBar.barTintColor = UIColor.red
+        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
 
-        // Do any additional setup after loading the view.
+       
     }
 
     override func didReceiveMemoryWarning() {
